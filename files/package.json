@@ -1,0 +1,20 @@
+{
+  "name": "files",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cwd": "node ./src/cwd.js",
+    "paths": "node ./src/paths.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chokidar": "^3.5.3",
+    "fs-extra": "^11.1.1",
+    "glob": "^10.3.4"
+  }
+}
